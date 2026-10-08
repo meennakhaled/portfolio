@@ -6,8 +6,8 @@ export const profile = {
   email: import.meta.env.VITE_CONTACT_EMAIL || "mennakhaled.forwork@gmail.com",
   linkedin: import.meta.env.VITE_LINKEDIN_URL || "https://www.linkedin.com/in/menna-khaled-204038359",
   github: import.meta.env.VITE_GITHUB_URL || "https://github.com/meennakhaled",
-  photo: "/assets/profile.jpg", // <- put your photo here
-  cv: "/assets/Menna-Khaled-CV.pdf", // <- replace to update your CV
+  photo: `${import.meta.env.BASE_URL}assets/profile.jpg`, // <- put your photo here
+  cv: `${import.meta.env.BASE_URL}assets/Menna-Khaled-CV.pdf`, // <- replace to update your CV
   location: "Cairo, Egypt",
   intro:
     "Information Technology graduate from Cairo University focused on cybersecurity, SOC operations, incident response, network security, and web application security. I'm building hands-on experience through internships and practical training.",
